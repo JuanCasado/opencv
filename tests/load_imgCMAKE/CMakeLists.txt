@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.1)
+set (CMAKE_CXX_STANDARD 11)
+project( load_imgCMAKE )
+find_package( OpenCV REQUIRED )
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+add_executable( load_imgCMAKE img_loader.cc )
+target_link_libraries( load_imgCMAKE ${OpenCV_LIBS} )

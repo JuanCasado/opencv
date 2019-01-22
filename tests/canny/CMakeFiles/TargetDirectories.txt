@@ -1,0 +1,3 @@
+/Users/mr.blissfulgrin/Documents/ME/opencv/tests/canny/CMakeFiles/rebuild_cache.dir
+/Users/mr.blissfulgrin/Documents/ME/opencv/tests/canny/CMakeFiles/edit_cache.dir
+/Users/mr.blissfulgrin/Documents/ME/opencv/tests/canny/CMakeFiles/canny.dir

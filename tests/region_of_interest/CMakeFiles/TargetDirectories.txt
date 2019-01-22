@@ -1,0 +1,3 @@
+/Users/mr.blissfulgrin/Documents/ME/opencv/tests/region_of_interest/CMakeFiles/rebuild_cache.dir
+/Users/mr.blissfulgrin/Documents/ME/opencv/tests/region_of_interest/CMakeFiles/edit_cache.dir
+/Users/mr.blissfulgrin/Documents/ME/opencv/tests/region_of_interest/CMakeFiles/region_of_interest.dir

@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.1)
+set (CMAKE_CXX_STANDARD 11)
+project( region_of_interest )
+find_package( OpenCV REQUIRED )
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+add_executable( region_of_interest region_of_interest.cc )
+target_link_libraries( region_of_interest ${OpenCV_LIBS} )
