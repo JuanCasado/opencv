@@ -10,7 +10,7 @@ int main(int argc, char** argv) {
   if (argc > 1) {
     imageName = argv[1];
   } else {
-    imageName = "./img.png";
+    imageName = "../../../tests_img/img.jpg";
   }
   Mat image = imread(imageName, IMREAD_COLOR);
   if (image.empty()) {

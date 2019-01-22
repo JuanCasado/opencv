@@ -23,7 +23,7 @@ int main (int argc, char** argv){
   if (argc == 2){
     canny.img = cv::imread(argv[1]);
   } else {
-    canny.img = cv::imread("./cat.png");
+    canny.img = cv::imread("../../../tests_img/cat.png");
   }
   if (!canny.img.data){
     std::cerr << "IMG NOT LOADED ./cat.png" << std::endl;

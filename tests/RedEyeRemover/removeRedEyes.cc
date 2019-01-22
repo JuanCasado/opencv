@@ -4,6 +4,7 @@
 **/
 
 #include <opencv2/opencv.hpp>
+#include <iostream>
 
 using namespace std;
 using namespace cv;
@@ -15,7 +16,7 @@ void fillHoles(Mat &mask)
      This hole filling algorithm is decribed in this post
      https://www.learnopencv.com/filling-holes-in-an-image-using-opencv-python-c/
      */
-     
+
     Mat maskFloodfill = mask.clone();
     floodFill(maskFloodfill, cv::Point(0,0), Scalar(255));
     Mat mask2;
@@ -27,19 +28,26 @@ void fillHoles(Mat &mask)
 int main(int argc, char** argv )
 {
     // Read image
-    Mat img = imread("red_eyes2.jpg",IMREAD_COLOR);
-
+    Mat img = imread("../../../tests_img/red_eyes2.jpg",IMREAD_COLOR);
+    if (!img.data){
+	std::cout << "ERROR LOADING IMAGE" << std::endl;
+	return 1;
+    }
     // Output image
     Mat imgOut = img.clone();
-    
+    if (!imgOut.data){
+        std::cout << "ERROR CLONING IMAGE" << std::endl;
+        return 1;
+    }
     // Load HAAR cascade
-    CascadeClassifier eyesCascade("haarcascade_eye.xml");
-    
+    CascadeClassifier eyesCascade("../haarcascade_eye.xml");
+    std::cout << "XML LOADED" << std::endl;
     // Detect eyes
     std::vector<Rect> eyes;
     eyesCascade.detectMultiScale( img, eyes, 1.3, 4, 0 |CASCADE_SCALE_IMAGE, Size(100, 100) );
 
-    
+    std::cout << "XML USED" << std::endl;
+
     // For every detected eye
     for( size_t i = 0; i < eyes.size(); i++ )
     {

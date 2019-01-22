@@ -13,7 +13,7 @@ struct IMG_FILTER {
 
 int main (int srgc, char** argv){
   IMG_FILTER filter;
-  filter.img = cv::imread("./cat.png");
+  filter.img = cv::imread("../../../tests_img/cat.png");
   if (!filter.img.data){
     std::cerr << "IMG NOT LOADED ./cat.png" << std::endl;
     return 1;

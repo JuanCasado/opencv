@@ -13,7 +13,7 @@ int main(int argc, char** argv) {
   }
   cv::Mat gray_image;
   cv::cvtColor(image, gray_image, cv::COLOR_RGB2GRAY);
-  cv::imwrite("./Gray_Image.png", gray_image);
+  cv::imwrite("../../../tests_img/Gray_Image.png", gray_image);
   cv::namedWindow(imageName, cv::WINDOW_AUTOSIZE);
   cv::namedWindow("Gray image.png", cv::WINDOW_AUTOSIZE);
   cv::imshow(imageName, image);

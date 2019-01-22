@@ -1,0 +1,3 @@
+/home/complubot/Documents/POLLOTRON/CODE/PRUEBAS/opencv/tests/image_scan/build/CMakeFiles/rebuild_cache.dir
+/home/complubot/Documents/POLLOTRON/CODE/PRUEBAS/opencv/tests/image_scan/build/CMakeFiles/edit_cache.dir
+/home/complubot/Documents/POLLOTRON/CODE/PRUEBAS/opencv/tests/image_scan/build/CMakeFiles/image_scan.dir

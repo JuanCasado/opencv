@@ -1,3 +1,0 @@
-/home/complubot/Documents/POLLOTRON/CODE/PRUEBAS/OPENCV/moments/CMakeFiles/edit_cache.dir
-/home/complubot/Documents/POLLOTRON/CODE/PRUEBAS/OPENCV/moments/CMakeFiles/rebuild_cache.dir
-/home/complubot/Documents/POLLOTRON/CODE/PRUEBAS/OPENCV/moments/CMakeFiles/moments.dir

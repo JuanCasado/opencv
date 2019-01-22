@@ -1,3 +1,0 @@
-/Users/mr.blissfulgrin/Documents/ME/opencv/tests/load_imgCMAKE/CMakeFiles/rebuild_cache.dir
-/Users/mr.blissfulgrin/Documents/ME/opencv/tests/load_imgCMAKE/CMakeFiles/edit_cache.dir
-/Users/mr.blissfulgrin/Documents/ME/opencv/tests/load_imgCMAKE/CMakeFiles/load_imgCMAKE.dir

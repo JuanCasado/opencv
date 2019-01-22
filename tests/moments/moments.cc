@@ -11,7 +11,7 @@ RNG rng(12345);
 void thresh_callback(int, void* );
 int main( int argc, char** argv )
 {
-    CommandLineParser parser( argc, argv, "{@input | ../data/stuff.jpg | input image}" );
+    CommandLineParser parser( argc, argv, "{@input | ../../../tests_img/img.jpg | input image}" );
     Mat src = imread( parser.get<String>( "@input" ) );
     if( src.empty() )
     {

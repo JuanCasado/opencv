@@ -1,3 +1,0 @@
-/home/complubot/Documents/POLLOTRON/CODE/PRUEBAS/OPENCV/contour/CMakeFiles/edit_cache.dir
-/home/complubot/Documents/POLLOTRON/CODE/PRUEBAS/OPENCV/contour/CMakeFiles/rebuild_cache.dir
-/home/complubot/Documents/POLLOTRON/CODE/PRUEBAS/OPENCV/contour/CMakeFiles/contour.dir

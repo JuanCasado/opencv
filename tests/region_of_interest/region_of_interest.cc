@@ -2,7 +2,7 @@
 #include <opencv2/opencv.hpp>
 
 int main (int argc, char** argv){
-  cv::Mat img = cv::imread("./cat.png", cv::IMREAD_COLOR);
+  cv::Mat img = cv::imread("../../../tests_img/cat.png", cv::IMREAD_COLOR);
   if (!img.data){
     std::cout << "ERROR LOADING ./cat.png" << std::endl;
     return 1;

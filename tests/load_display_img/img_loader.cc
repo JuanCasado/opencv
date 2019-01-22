@@ -7,7 +7,7 @@ using namespace cv;
 using namespace std;
 int main( int argc, char** argv )
 {
-    String imageName( "./img.png" ); // by default
+    String imageName( "../../../tests_img/cat.png" ); // by default
     if( argc > 1)
     {
         imageName = argv[1];

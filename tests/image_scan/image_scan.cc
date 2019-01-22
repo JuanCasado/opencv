@@ -24,7 +24,7 @@ int main(int argc, char** argv) {
     p[i] = table[i];
   }
 
-  cv::Mat I = cv::imread("./cat.png");
+  cv::Mat I = cv::imread("../../../tests_img/cat.png");
   cv::Mat I1 = I.clone();
   cv::Mat I2 = I.clone();
   cv::Mat I3 = I.clone();
