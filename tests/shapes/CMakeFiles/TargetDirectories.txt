@@ -1,0 +1,3 @@
+/home/complubot/Documents/POLLOTRON/CODE/PRUEBAS/OPENCV/shapes/CMakeFiles/rebuild_cache.dir
+/home/complubot/Documents/POLLOTRON/CODE/PRUEBAS/OPENCV/shapes/CMakeFiles/edit_cache.dir
+/home/complubot/Documents/POLLOTRON/CODE/PRUEBAS/OPENCV/shapes/CMakeFiles/shapes.dir

@@ -1,0 +1,3 @@
+/home/complubot/Documents/POLLOTRON/CODE/PRUEBAS/OPENCV/load_display_img/CMakeFiles/edit_cache.dir
+/home/complubot/Documents/POLLOTRON/CODE/PRUEBAS/OPENCV/load_display_img/CMakeFiles/rebuild_cache.dir
+/home/complubot/Documents/POLLOTRON/CODE/PRUEBAS/OPENCV/load_display_img/CMakeFiles/img_loader.dir
