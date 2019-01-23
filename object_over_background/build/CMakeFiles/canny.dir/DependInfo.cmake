@@ -4,14 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/complubot/Documents/POLLOTRON/CODE/PRUEBAS/opencv/object_over_background/canny.cc" "/home/complubot/Documents/POLLOTRON/CODE/PRUEBAS/opencv/object_over_background/build/CMakeFiles/canny.dir/canny.cc.o"
+  "/Users/mr.blissfulgrin/Documents/ME/opencv/object_over_background/canny.cc" "/Users/mr.blissfulgrin/Documents/ME/opencv/object_over_background/build/CMakeFiles/canny.dir/canny.cc.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/opt/ros/kinetic/include/opencv-3.3.1-dev"
-  "/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv"
+  "/usr/local/include/opencv4"
   )
 
 # Targets to which this target links.
