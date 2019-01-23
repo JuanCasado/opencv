@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/mr.blissfulgrin/opencv/learnopencv/ObjectDetection-YOLO/ml_object_detector.cc" "/Users/mr.blissfulgrin/opencv/learnopencv/ObjectDetection-YOLO/build/CMakeFiles/ml_object_detector.dir/ml_object_detector.cc.o"
+  "/home/complubot/Documents/POLLOTRON/CODE/PRUEBAS/opencv/ml_object_detector/ml_object_detector.cc" "/home/complubot/Documents/POLLOTRON/CODE/PRUEBAS/opencv/ml_object_detector/build/CMakeFiles/ml_object_detector.dir/ml_object_detector.cc.o"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/usr/local/include/opencv4"
+  "/home/complubot/Documents/POLLOTRON/CODE/opencv/installation/OpenCV-master/include/opencv4"
   )
 
 # Targets to which this target links.
