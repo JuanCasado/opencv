@@ -1,3 +1,0 @@
-/home/complubot/Documents/POLLOTRON/CODE/PRUEBAS/opencv/tests/img_to_grayscale/build/CMakeFiles/edit_cache.dir
-/home/complubot/Documents/POLLOTRON/CODE/PRUEBAS/opencv/tests/img_to_grayscale/build/CMakeFiles/rebuild_cache.dir
-/home/complubot/Documents/POLLOTRON/CODE/PRUEBAS/opencv/tests/img_to_grayscale/build/CMakeFiles/img_to_grayscale.dir

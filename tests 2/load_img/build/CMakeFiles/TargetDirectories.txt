@@ -1,3 +1,0 @@
-/home/complubot/Documents/POLLOTRON/CODE/PRUEBAS/opencv/tests/load_img/build/CMakeFiles/edit_cache.dir
-/home/complubot/Documents/POLLOTRON/CODE/PRUEBAS/opencv/tests/load_img/build/CMakeFiles/rebuild_cache.dir
-/home/complubot/Documents/POLLOTRON/CODE/PRUEBAS/opencv/tests/load_img/build/CMakeFiles/img_loader.dir

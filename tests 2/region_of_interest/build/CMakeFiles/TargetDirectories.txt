@@ -1,3 +1,0 @@
-/home/complubot/Documents/POLLOTRON/CODE/PRUEBAS/opencv/tests/region_of_interest/build/CMakeFiles/rebuild_cache.dir
-/home/complubot/Documents/POLLOTRON/CODE/PRUEBAS/opencv/tests/region_of_interest/build/CMakeFiles/edit_cache.dir
-/home/complubot/Documents/POLLOTRON/CODE/PRUEBAS/opencv/tests/region_of_interest/build/CMakeFiles/region_of_interest.dir
