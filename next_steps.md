@@ -1,0 +1,5 @@
+#NEXT_STEPS
+
+* HoughLinesP : https://stackoverflow.com/questions/45322630/how-to-detect-lines-in-opencv
+
+

@@ -1,4 +1,4 @@
-set (target object_over_background)
+set (target line_detector)
 
 cmake_minimum_required(VERSION 3.1)
 set (CMAKE_CXX_STANDARD 11)

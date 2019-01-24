@@ -48,10 +48,10 @@ RM = /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packag
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/mr.blissfulgrin/Documents/ME/opencv/object_over_background
+CMAKE_SOURCE_DIR = /Users/mr.blissfulgrin/Documents/ME/opencv/tests/line_detector
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/mr.blissfulgrin/Documents/ME/opencv/object_over_background/build
+CMAKE_BINARY_DIR = /Users/mr.blissfulgrin/Documents/ME/opencv/tests/line_detector/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mr.blissfulgrin/Documents/ME/opencv/object_over_background/build/CMakeFiles /Users/mr.blissfulgrin/Documents/ME/opencv/object_over_background/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mr.blissfulgrin/Documents/ME/opencv/tests/line_detector/build/CMakeFiles /Users/mr.blissfulgrin/Documents/ME/opencv/tests/line_detector/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mr.blissfulgrin/Documents/ME/opencv/object_over_background/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mr.blissfulgrin/Documents/ME/opencv/tests/line_detector/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named object_over_background
+# Target rules for targets named line_detector
 
 # Build rule for target.
-object_over_background: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 object_over_background
-.PHONY : object_over_background
+line_detector: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 line_detector
+.PHONY : line_detector
 
 # fast build rule for target.
-object_over_background/fast:
-	$(MAKE) -f CMakeFiles/object_over_background.dir/build.make CMakeFiles/object_over_background.dir/build
-.PHONY : object_over_background/fast
+line_detector/fast:
+	$(MAKE) -f CMakeFiles/line_detector.dir/build.make CMakeFiles/line_detector.dir/build
+.PHONY : line_detector/fast
 
-object_over_background.o: object_over_background.cc.o
+line_detector.o: line_detector.cc.o
 
-.PHONY : object_over_background.o
+.PHONY : line_detector.o
 
 # target to build an object file
-object_over_background.cc.o:
-	$(MAKE) -f CMakeFiles/object_over_background.dir/build.make CMakeFiles/object_over_background.dir/object_over_background.cc.o
-.PHONY : object_over_background.cc.o
+line_detector.cc.o:
+	$(MAKE) -f CMakeFiles/line_detector.dir/build.make CMakeFiles/line_detector.dir/line_detector.cc.o
+.PHONY : line_detector.cc.o
 
-object_over_background.i: object_over_background.cc.i
+line_detector.i: line_detector.cc.i
 
-.PHONY : object_over_background.i
+.PHONY : line_detector.i
 
 # target to preprocess a source file
-object_over_background.cc.i:
-	$(MAKE) -f CMakeFiles/object_over_background.dir/build.make CMakeFiles/object_over_background.dir/object_over_background.cc.i
-.PHONY : object_over_background.cc.i
+line_detector.cc.i:
+	$(MAKE) -f CMakeFiles/line_detector.dir/build.make CMakeFiles/line_detector.dir/line_detector.cc.i
+.PHONY : line_detector.cc.i
 
-object_over_background.s: object_over_background.cc.s
+line_detector.s: line_detector.cc.s
 
-.PHONY : object_over_background.s
+.PHONY : line_detector.s
 
 # target to generate assembly for a file
-object_over_background.cc.s:
-	$(MAKE) -f CMakeFiles/object_over_background.dir/build.make CMakeFiles/object_over_background.dir/object_over_background.cc.s
-.PHONY : object_over_background.cc.s
+line_detector.cc.s:
+	$(MAKE) -f CMakeFiles/line_detector.dir/build.make CMakeFiles/line_detector.dir/line_detector.cc.s
+.PHONY : line_detector.cc.s
 
 # Help Target
 help:
@@ -158,10 +158,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... object_over_background"
-	@echo "... object_over_background.o"
-	@echo "... object_over_background.i"
-	@echo "... object_over_background.s"
+	@echo "... line_detector"
+	@echo "... line_detector.o"
+	@echo "... line_detector.i"
+	@echo "... line_detector.s"
 .PHONY : help
 
 

@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is AppleClang, found in "/Users/mr.blissfulgrin/Documents/ME/opencv/ml_object_detector/build/CMakeFiles/3.13.3/CompilerIdC/a.out"
+The C compiler identification is AppleClang, found in "/Users/mr.blissfulgrin/Documents/ME/opencv/tests/line_detector/build/CMakeFiles/3.13.3/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ 
@@ -23,36 +23,36 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is AppleClang, found in "/Users/mr.blissfulgrin/Documents/ME/opencv/ml_object_detector/build/CMakeFiles/3.13.3/CompilerIdCXX/a.out"
+The CXX compiler identification is AppleClang, found in "/Users/mr.blissfulgrin/Documents/ME/opencv/tests/line_detector/build/CMakeFiles/3.13.3/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /Users/mr.blissfulgrin/Documents/ME/opencv/ml_object_detector/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/mr.blissfulgrin/Documents/ME/opencv/tests/line_detector/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a8e8c/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a8e8c.dir/build.make CMakeFiles/cmTC_a8e8c.dir/build
-Building C object CMakeFiles/cmTC_a8e8c.dir/testCCompiler.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_a8e8c.dir/testCCompiler.c.o   -c /Users/mr.blissfulgrin/Documents/ME/opencv/ml_object_detector/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_a8e8c
-/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/cmake/data/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8e8c.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/qt/lib:-L/usr/local/opt/icu4c/lib:-L/usr/local/opt/llvm/lib:-L/usr/local/opt/openssl/lib:  CMakeFiles/cmTC_a8e8c.dir/testCCompiler.c.o  -o cmTC_a8e8c 
+Run Build Command:"/usr/bin/make" "cmTC_1da3e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1da3e.dir/build.make CMakeFiles/cmTC_1da3e.dir/build
+Building C object CMakeFiles/cmTC_1da3e.dir/testCCompiler.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_1da3e.dir/testCCompiler.c.o   -c /Users/mr.blissfulgrin/Documents/ME/opencv/tests/line_detector/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_1da3e
+/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/cmake/data/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1da3e.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/qt/lib:-L/usr/local/opt/icu4c/lib:-L/usr/local/opt/llvm/lib:-L/usr/local/opt/openssl/lib:  CMakeFiles/cmTC_1da3e.dir/testCCompiler.c.o  -o cmTC_1da3e 
 ld: warning: directory not found for option '-L/usr/local/opt/qt/lib:-L/usr/local/opt/icu4c/lib:-L/usr/local/opt/llvm/lib:-L/usr/local/opt/openssl/lib:'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /Users/mr.blissfulgrin/Documents/ME/opencv/ml_object_detector/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/mr.blissfulgrin/Documents/ME/opencv/tests/line_detector/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d986d/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d986d.dir/build.make CMakeFiles/cmTC_d986d.dir/build
-Building C object CMakeFiles/cmTC_d986d.dir/CMakeCCompilerABI.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_d986d.dir/CMakeCCompilerABI.c.o   -c /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.13/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_d986d
-/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/cmake/data/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d986d.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/qt/lib:-L/usr/local/opt/icu4c/lib:-L/usr/local/opt/llvm/lib:-L/usr/local/opt/openssl/lib: -v -Wl,-v CMakeFiles/cmTC_d986d.dir/CMakeCCompilerABI.c.o  -o cmTC_d986d 
+Run Build Command:"/usr/bin/make" "cmTC_ddd4e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ddd4e.dir/build.make CMakeFiles/cmTC_ddd4e.dir/build
+Building C object CMakeFiles/cmTC_ddd4e.dir/CMakeCCompilerABI.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_ddd4e.dir/CMakeCCompilerABI.c.o   -c /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.13/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_ddd4e
+/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/cmake/data/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ddd4e.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/qt/lib:-L/usr/local/opt/icu4c/lib:-L/usr/local/opt/llvm/lib:-L/usr/local/opt/openssl/lib: -v -Wl,-v CMakeFiles/cmTC_ddd4e.dir/CMakeCCompilerABI.c.o  -o cmTC_ddd4e 
 Apple LLVM version 10.0.0 (clang-1000.11.45.5)
 Target: x86_64-apple-darwin18.2.0
 Thread model: posix
 InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -o cmTC_d986d -L/usr/local/opt/qt/lib:-L/usr/local/opt/icu4c/lib:-L/usr/local/opt/llvm/lib:-L/usr/local/opt/openssl/lib: -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_d986d.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -o cmTC_ddd4e -L/usr/local/opt/qt/lib:-L/usr/local/opt/icu4c/lib:-L/usr/local/opt/llvm/lib:-L/usr/local/opt/openssl/lib: -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_ddd4e.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a
 @(#)PROGRAM:ld  PROJECT:ld64-409.12
 BUILD 17:47:51 Sep 25 2018
 configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em arm64e arm64_32
@@ -67,20 +67,20 @@ Framework search paths:
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/mr.blissfulgrin/Documents/ME/opencv/ml_object_detector/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /Users/mr.blissfulgrin/Documents/ME/opencv/tests/line_detector/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_d986d/fast"]
-  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d986d.dir/build.make CMakeFiles/cmTC_d986d.dir/build]
-  ignore line: [Building C object CMakeFiles/cmTC_d986d.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_d986d.dir/CMakeCCompilerABI.c.o   -c /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.13/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_d986d]
-  ignore line: [/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/cmake/data/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d986d.dir/link.txt --verbose=1]
-  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/qt/lib:-L/usr/local/opt/icu4c/lib:-L/usr/local/opt/llvm/lib:-L/usr/local/opt/openssl/lib: -v -Wl,-v CMakeFiles/cmTC_d986d.dir/CMakeCCompilerABI.c.o  -o cmTC_d986d ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_ddd4e/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ddd4e.dir/build.make CMakeFiles/cmTC_ddd4e.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_ddd4e.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_ddd4e.dir/CMakeCCompilerABI.c.o   -c /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.13/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_ddd4e]
+  ignore line: [/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/cmake/data/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ddd4e.dir/link.txt --verbose=1]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/qt/lib:-L/usr/local/opt/icu4c/lib:-L/usr/local/opt/llvm/lib:-L/usr/local/opt/openssl/lib: -v -Wl,-v CMakeFiles/cmTC_ddd4e.dir/CMakeCCompilerABI.c.o  -o cmTC_ddd4e ]
   ignore line: [Apple LLVM version 10.0.0 (clang-1000.11.45.5)]
   ignore line: [Target: x86_64-apple-darwin18.2.0]
   ignore line: [Thread model: posix]
   ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
-  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -o cmTC_d986d -L/usr/local/opt/qt/lib:-L/usr/local/opt/icu4c/lib:-L/usr/local/opt/llvm/lib:-L/usr/local/opt/openssl/lib: -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_d986d.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -o cmTC_ddd4e -L/usr/local/opt/qt/lib:-L/usr/local/opt/icu4c/lib:-L/usr/local/opt/llvm/lib:-L/usr/local/opt/openssl/lib: -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_ddd4e.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
     arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
     arg [-demangle] ==> ignore
     arg [-lto_library] ==> ignore, skip following value
@@ -91,12 +91,12 @@ Parsed C implicit link information from above output:
     arg [-macosx_version_min] ==> ignore
     arg [10.14.0] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_d986d] ==> ignore
+    arg [cmTC_ddd4e] ==> ignore
     arg [-L/usr/local/opt/qt/lib:-L/usr/local/opt/icu4c/lib:-L/usr/local/opt/llvm/lib:-L/usr/local/opt/openssl/lib:] ==> dir [/usr/local/opt/qt/lib:-L/usr/local/opt/icu4c/lib:-L/usr/local/opt/llvm/lib:-L/usr/local/opt/openssl/lib:]
     arg [-search_paths_first] ==> ignore
     arg [-headerpad_max_install_names] ==> ignore
     arg [-v] ==> ignore
-    arg [CMakeFiles/cmTC_d986d.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_ddd4e.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lSystem] ==> lib [System]
     arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
   Library search paths: [;/usr/lib;/usr/local/lib]
@@ -116,15 +116,15 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /Users/mr.blissfulgrin/Documents/ME/opencv/ml_object_detector/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/mr.blissfulgrin/Documents/ME/opencv/tests/line_detector/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2df08/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_2df08.dir/build.make CMakeFiles/cmTC_2df08.dir/build
-Building C object CMakeFiles/cmTC_2df08.dir/feature_tests.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_2df08.dir/feature_tests.c.o   -c /Users/mr.blissfulgrin/Documents/ME/opencv/ml_object_detector/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_2df08
-/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/cmake/data/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2df08.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/qt/lib:-L/usr/local/opt/icu4c/lib:-L/usr/local/opt/llvm/lib:-L/usr/local/opt/openssl/lib:  CMakeFiles/cmTC_2df08.dir/feature_tests.c.o  -o cmTC_2df08 
+Run Build Command:"/usr/bin/make" "cmTC_c4062/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c4062.dir/build.make CMakeFiles/cmTC_c4062.dir/build
+Building C object CMakeFiles/cmTC_c4062.dir/feature_tests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_c4062.dir/feature_tests.c.o   -c /Users/mr.blissfulgrin/Documents/ME/opencv/tests/line_detector/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_c4062
+/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/cmake/data/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4062.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/qt/lib:-L/usr/local/opt/icu4c/lib:-L/usr/local/opt/llvm/lib:-L/usr/local/opt/openssl/lib:  CMakeFiles/cmTC_c4062.dir/feature_tests.c.o  -o cmTC_c4062 
 ld: warning: directory not found for option '-L/usr/local/opt/qt/lib:-L/usr/local/opt/icu4c/lib:-L/usr/local/opt/llvm/lib:-L/usr/local/opt/openssl/lib:'
 
 
@@ -135,15 +135,15 @@ ld: warning: directory not found for option '-L/usr/local/opt/qt/lib:-L/usr/loca
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /Users/mr.blissfulgrin/Documents/ME/opencv/ml_object_detector/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/mr.blissfulgrin/Documents/ME/opencv/tests/line_detector/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e2c1e/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e2c1e.dir/build.make CMakeFiles/cmTC_e2c1e.dir/build
-Building C object CMakeFiles/cmTC_e2c1e.dir/feature_tests.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_e2c1e.dir/feature_tests.c.o   -c /Users/mr.blissfulgrin/Documents/ME/opencv/ml_object_detector/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_e2c1e
-/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/cmake/data/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2c1e.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/qt/lib:-L/usr/local/opt/icu4c/lib:-L/usr/local/opt/llvm/lib:-L/usr/local/opt/openssl/lib:  CMakeFiles/cmTC_e2c1e.dir/feature_tests.c.o  -o cmTC_e2c1e 
+Run Build Command:"/usr/bin/make" "cmTC_61a6b/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_61a6b.dir/build.make CMakeFiles/cmTC_61a6b.dir/build
+Building C object CMakeFiles/cmTC_61a6b.dir/feature_tests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_61a6b.dir/feature_tests.c.o   -c /Users/mr.blissfulgrin/Documents/ME/opencv/tests/line_detector/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_61a6b
+/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/cmake/data/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61a6b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/qt/lib:-L/usr/local/opt/icu4c/lib:-L/usr/local/opt/llvm/lib:-L/usr/local/opt/openssl/lib:  CMakeFiles/cmTC_61a6b.dir/feature_tests.c.o  -o cmTC_61a6b 
 ld: warning: directory not found for option '-L/usr/local/opt/qt/lib:-L/usr/local/opt/icu4c/lib:-L/usr/local/opt/llvm/lib:-L/usr/local/opt/openssl/lib:'
 
 
@@ -154,15 +154,15 @@ ld: warning: directory not found for option '-L/usr/local/opt/qt/lib:-L/usr/loca
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /Users/mr.blissfulgrin/Documents/ME/opencv/ml_object_detector/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/mr.blissfulgrin/Documents/ME/opencv/tests/line_detector/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6f2be/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_6f2be.dir/build.make CMakeFiles/cmTC_6f2be.dir/build
-Building C object CMakeFiles/cmTC_6f2be.dir/feature_tests.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_6f2be.dir/feature_tests.c.o   -c /Users/mr.blissfulgrin/Documents/ME/opencv/ml_object_detector/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_6f2be
-/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/cmake/data/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f2be.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/qt/lib:-L/usr/local/opt/icu4c/lib:-L/usr/local/opt/llvm/lib:-L/usr/local/opt/openssl/lib:  CMakeFiles/cmTC_6f2be.dir/feature_tests.c.o  -o cmTC_6f2be 
+Run Build Command:"/usr/bin/make" "cmTC_7a4c2/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7a4c2.dir/build.make CMakeFiles/cmTC_7a4c2.dir/build
+Building C object CMakeFiles/cmTC_7a4c2.dir/feature_tests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_7a4c2.dir/feature_tests.c.o   -c /Users/mr.blissfulgrin/Documents/ME/opencv/tests/line_detector/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_7a4c2
+/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/cmake/data/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a4c2.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/qt/lib:-L/usr/local/opt/icu4c/lib:-L/usr/local/opt/llvm/lib:-L/usr/local/opt/openssl/lib:  CMakeFiles/cmTC_7a4c2.dir/feature_tests.c.o  -o cmTC_7a4c2 
 ld: warning: directory not found for option '-L/usr/local/opt/qt/lib:-L/usr/local/opt/icu4c/lib:-L/usr/local/opt/llvm/lib:-L/usr/local/opt/openssl/lib:'
 
 
@@ -171,33 +171,33 @@ ld: warning: directory not found for option '-L/usr/local/opt/qt/lib:-L/usr/loca
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /Users/mr.blissfulgrin/Documents/ME/opencv/ml_object_detector/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/mr.blissfulgrin/Documents/ME/opencv/tests/line_detector/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4b8a0/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_4b8a0.dir/build.make CMakeFiles/cmTC_4b8a0.dir/build
-Building CXX object CMakeFiles/cmTC_4b8a0.dir/testCXXCompiler.cxx.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -o CMakeFiles/cmTC_4b8a0.dir/testCXXCompiler.cxx.o -c /Users/mr.blissfulgrin/Documents/ME/opencv/ml_object_detector/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_4b8a0
-/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/cmake/data/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b8a0.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/qt/lib:-L/usr/local/opt/icu4c/lib:-L/usr/local/opt/llvm/lib:-L/usr/local/opt/openssl/lib:  CMakeFiles/cmTC_4b8a0.dir/testCXXCompiler.cxx.o  -o cmTC_4b8a0 
+Run Build Command:"/usr/bin/make" "cmTC_baf53/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_baf53.dir/build.make CMakeFiles/cmTC_baf53.dir/build
+Building CXX object CMakeFiles/cmTC_baf53.dir/testCXXCompiler.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -o CMakeFiles/cmTC_baf53.dir/testCXXCompiler.cxx.o -c /Users/mr.blissfulgrin/Documents/ME/opencv/tests/line_detector/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_baf53
+/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/cmake/data/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_baf53.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/qt/lib:-L/usr/local/opt/icu4c/lib:-L/usr/local/opt/llvm/lib:-L/usr/local/opt/openssl/lib:  CMakeFiles/cmTC_baf53.dir/testCXXCompiler.cxx.o  -o cmTC_baf53 
 ld: warning: directory not found for option '-L/usr/local/opt/qt/lib:-L/usr/local/opt/icu4c/lib:-L/usr/local/opt/llvm/lib:-L/usr/local/opt/openssl/lib:'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /Users/mr.blissfulgrin/Documents/ME/opencv/ml_object_detector/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/mr.blissfulgrin/Documents/ME/opencv/tests/line_detector/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7e41a/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7e41a.dir/build.make CMakeFiles/cmTC_7e41a.dir/build
-Building CXX object CMakeFiles/cmTC_7e41a.dir/CMakeCXXCompilerABI.cpp.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -o CMakeFiles/cmTC_7e41a.dir/CMakeCXXCompilerABI.cpp.o -c /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_7e41a
-/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/cmake/data/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e41a.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/qt/lib:-L/usr/local/opt/icu4c/lib:-L/usr/local/opt/llvm/lib:-L/usr/local/opt/openssl/lib: -v -Wl,-v CMakeFiles/cmTC_7e41a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_7e41a 
+Run Build Command:"/usr/bin/make" "cmTC_09577/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_09577.dir/build.make CMakeFiles/cmTC_09577.dir/build
+Building CXX object CMakeFiles/cmTC_09577.dir/CMakeCXXCompilerABI.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -o CMakeFiles/cmTC_09577.dir/CMakeCXXCompilerABI.cpp.o -c /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_09577
+/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/cmake/data/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09577.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/qt/lib:-L/usr/local/opt/icu4c/lib:-L/usr/local/opt/llvm/lib:-L/usr/local/opt/openssl/lib: -v -Wl,-v CMakeFiles/cmTC_09577.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_09577 
 Apple LLVM version 10.0.0 (clang-1000.11.45.5)
 Target: x86_64-apple-darwin18.2.0
 Thread model: posix
 InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -o cmTC_7e41a -L/usr/local/opt/qt/lib:-L/usr/local/opt/icu4c/lib:-L/usr/local/opt/llvm/lib:-L/usr/local/opt/openssl/lib: -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_7e41a.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -o cmTC_09577 -L/usr/local/opt/qt/lib:-L/usr/local/opt/icu4c/lib:-L/usr/local/opt/llvm/lib:-L/usr/local/opt/openssl/lib: -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_09577.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a
 @(#)PROGRAM:ld  PROJECT:ld64-409.12
 BUILD 17:47:51 Sep 25 2018
 configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em arm64e arm64_32
@@ -212,20 +212,20 @@ Framework search paths:
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/mr.blissfulgrin/Documents/ME/opencv/ml_object_detector/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /Users/mr.blissfulgrin/Documents/ME/opencv/tests/line_detector/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_7e41a/fast"]
-  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7e41a.dir/build.make CMakeFiles/cmTC_7e41a.dir/build]
-  ignore line: [Building CXX object CMakeFiles/cmTC_7e41a.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -o CMakeFiles/cmTC_7e41a.dir/CMakeCXXCompilerABI.cpp.o -c /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_7e41a]
-  ignore line: [/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/cmake/data/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e41a.dir/link.txt --verbose=1]
-  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/qt/lib:-L/usr/local/opt/icu4c/lib:-L/usr/local/opt/llvm/lib:-L/usr/local/opt/openssl/lib: -v -Wl,-v CMakeFiles/cmTC_7e41a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_7e41a ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_09577/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_09577.dir/build.make CMakeFiles/cmTC_09577.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_09577.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -o CMakeFiles/cmTC_09577.dir/CMakeCXXCompilerABI.cpp.o -c /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_09577]
+  ignore line: [/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/cmake/data/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09577.dir/link.txt --verbose=1]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/qt/lib:-L/usr/local/opt/icu4c/lib:-L/usr/local/opt/llvm/lib:-L/usr/local/opt/openssl/lib: -v -Wl,-v CMakeFiles/cmTC_09577.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_09577 ]
   ignore line: [Apple LLVM version 10.0.0 (clang-1000.11.45.5)]
   ignore line: [Target: x86_64-apple-darwin18.2.0]
   ignore line: [Thread model: posix]
   ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
-  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -o cmTC_7e41a -L/usr/local/opt/qt/lib:-L/usr/local/opt/icu4c/lib:-L/usr/local/opt/llvm/lib:-L/usr/local/opt/openssl/lib: -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_7e41a.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -o cmTC_09577 -L/usr/local/opt/qt/lib:-L/usr/local/opt/icu4c/lib:-L/usr/local/opt/llvm/lib:-L/usr/local/opt/openssl/lib: -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_09577.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
     arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
     arg [-demangle] ==> ignore
     arg [-lto_library] ==> ignore, skip following value
@@ -236,12 +236,12 @@ Parsed CXX implicit link information from above output:
     arg [-macosx_version_min] ==> ignore
     arg [10.14.0] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_7e41a] ==> ignore
+    arg [cmTC_09577] ==> ignore
     arg [-L/usr/local/opt/qt/lib:-L/usr/local/opt/icu4c/lib:-L/usr/local/opt/llvm/lib:-L/usr/local/opt/openssl/lib:] ==> dir [/usr/local/opt/qt/lib:-L/usr/local/opt/icu4c/lib:-L/usr/local/opt/llvm/lib:-L/usr/local/opt/openssl/lib:]
     arg [-search_paths_first] ==> ignore
     arg [-headerpad_max_install_names] ==> ignore
     arg [-v] ==> ignore
-    arg [CMakeFiles/cmTC_7e41a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_09577.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lc++] ==> lib [c++]
     arg [-lSystem] ==> lib [System]
     arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
@@ -262,15 +262,15 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /Users/mr.blissfulgrin/Documents/ME/opencv/ml_object_detector/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/mr.blissfulgrin/Documents/ME/opencv/tests/line_detector/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f4704/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f4704.dir/build.make CMakeFiles/cmTC_f4704.dir/build
-Building CXX object CMakeFiles/cmTC_f4704.dir/feature_tests.cxx.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_f4704.dir/feature_tests.cxx.o -c /Users/mr.blissfulgrin/Documents/ME/opencv/ml_object_detector/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_f4704
-/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/cmake/data/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4704.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/qt/lib:-L/usr/local/opt/icu4c/lib:-L/usr/local/opt/llvm/lib:-L/usr/local/opt/openssl/lib:  CMakeFiles/cmTC_f4704.dir/feature_tests.cxx.o  -o cmTC_f4704 
+Run Build Command:"/usr/bin/make" "cmTC_48074/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_48074.dir/build.make CMakeFiles/cmTC_48074.dir/build
+Building CXX object CMakeFiles/cmTC_48074.dir/feature_tests.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_48074.dir/feature_tests.cxx.o -c /Users/mr.blissfulgrin/Documents/ME/opencv/tests/line_detector/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_48074
+/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/cmake/data/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48074.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/qt/lib:-L/usr/local/opt/icu4c/lib:-L/usr/local/opt/llvm/lib:-L/usr/local/opt/openssl/lib:  CMakeFiles/cmTC_48074.dir/feature_tests.cxx.o  -o cmTC_48074 
 ld: warning: directory not found for option '-L/usr/local/opt/qt/lib:-L/usr/local/opt/icu4c/lib:-L/usr/local/opt/llvm/lib:-L/usr/local/opt/openssl/lib:'
 
 
@@ -334,15 +334,15 @@ ld: warning: directory not found for option '-L/usr/local/opt/qt/lib:-L/usr/loca
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /Users/mr.blissfulgrin/Documents/ME/opencv/ml_object_detector/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/mr.blissfulgrin/Documents/ME/opencv/tests/line_detector/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cb73d/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_cb73d.dir/build.make CMakeFiles/cmTC_cb73d.dir/build
-Building CXX object CMakeFiles/cmTC_cb73d.dir/feature_tests.cxx.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_cb73d.dir/feature_tests.cxx.o -c /Users/mr.blissfulgrin/Documents/ME/opencv/ml_object_detector/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_cb73d
-/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/cmake/data/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb73d.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/qt/lib:-L/usr/local/opt/icu4c/lib:-L/usr/local/opt/llvm/lib:-L/usr/local/opt/openssl/lib:  CMakeFiles/cmTC_cb73d.dir/feature_tests.cxx.o  -o cmTC_cb73d 
+Run Build Command:"/usr/bin/make" "cmTC_bd1dd/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_bd1dd.dir/build.make CMakeFiles/cmTC_bd1dd.dir/build
+Building CXX object CMakeFiles/cmTC_bd1dd.dir/feature_tests.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_bd1dd.dir/feature_tests.cxx.o -c /Users/mr.blissfulgrin/Documents/ME/opencv/tests/line_detector/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_bd1dd
+/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/cmake/data/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd1dd.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/qt/lib:-L/usr/local/opt/icu4c/lib:-L/usr/local/opt/llvm/lib:-L/usr/local/opt/openssl/lib:  CMakeFiles/cmTC_bd1dd.dir/feature_tests.cxx.o  -o cmTC_bd1dd 
 ld: warning: directory not found for option '-L/usr/local/opt/qt/lib:-L/usr/local/opt/icu4c/lib:-L/usr/local/opt/llvm/lib:-L/usr/local/opt/openssl/lib:'
 
 
@@ -406,15 +406,15 @@ ld: warning: directory not found for option '-L/usr/local/opt/qt/lib:-L/usr/loca
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /Users/mr.blissfulgrin/Documents/ME/opencv/ml_object_detector/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/mr.blissfulgrin/Documents/ME/opencv/tests/line_detector/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_28a33/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_28a33.dir/build.make CMakeFiles/cmTC_28a33.dir/build
-Building CXX object CMakeFiles/cmTC_28a33.dir/feature_tests.cxx.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_28a33.dir/feature_tests.cxx.o -c /Users/mr.blissfulgrin/Documents/ME/opencv/ml_object_detector/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_28a33
-/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/cmake/data/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28a33.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/qt/lib:-L/usr/local/opt/icu4c/lib:-L/usr/local/opt/llvm/lib:-L/usr/local/opt/openssl/lib:  CMakeFiles/cmTC_28a33.dir/feature_tests.cxx.o  -o cmTC_28a33 
+Run Build Command:"/usr/bin/make" "cmTC_01042/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_01042.dir/build.make CMakeFiles/cmTC_01042.dir/build
+Building CXX object CMakeFiles/cmTC_01042.dir/feature_tests.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_01042.dir/feature_tests.cxx.o -c /Users/mr.blissfulgrin/Documents/ME/opencv/tests/line_detector/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_01042
+/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/cmake/data/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01042.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/qt/lib:-L/usr/local/opt/icu4c/lib:-L/usr/local/opt/llvm/lib:-L/usr/local/opt/openssl/lib:  CMakeFiles/cmTC_01042.dir/feature_tests.cxx.o  -o cmTC_01042 
 ld: warning: directory not found for option '-L/usr/local/opt/qt/lib:-L/usr/local/opt/icu4c/lib:-L/usr/local/opt/llvm/lib:-L/usr/local/opt/openssl/lib:'
 
 
@@ -478,15 +478,15 @@ ld: warning: directory not found for option '-L/usr/local/opt/qt/lib:-L/usr/loca
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /Users/mr.blissfulgrin/Documents/ME/opencv/ml_object_detector/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/mr.blissfulgrin/Documents/ME/opencv/tests/line_detector/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8caee/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_8caee.dir/build.make CMakeFiles/cmTC_8caee.dir/build
-Building CXX object CMakeFiles/cmTC_8caee.dir/feature_tests.cxx.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_8caee.dir/feature_tests.cxx.o -c /Users/mr.blissfulgrin/Documents/ME/opencv/ml_object_detector/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_8caee
-/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/cmake/data/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8caee.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/qt/lib:-L/usr/local/opt/icu4c/lib:-L/usr/local/opt/llvm/lib:-L/usr/local/opt/openssl/lib:  CMakeFiles/cmTC_8caee.dir/feature_tests.cxx.o  -o cmTC_8caee 
+Run Build Command:"/usr/bin/make" "cmTC_d90ba/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d90ba.dir/build.make CMakeFiles/cmTC_d90ba.dir/build
+Building CXX object CMakeFiles/cmTC_d90ba.dir/feature_tests.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_d90ba.dir/feature_tests.cxx.o -c /Users/mr.blissfulgrin/Documents/ME/opencv/tests/line_detector/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_d90ba
+/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/cmake/data/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d90ba.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/qt/lib:-L/usr/local/opt/icu4c/lib:-L/usr/local/opt/llvm/lib:-L/usr/local/opt/openssl/lib:  CMakeFiles/cmTC_d90ba.dir/feature_tests.cxx.o  -o cmTC_d90ba 
 ld: warning: directory not found for option '-L/usr/local/opt/qt/lib:-L/usr/local/opt/icu4c/lib:-L/usr/local/opt/llvm/lib:-L/usr/local/opt/openssl/lib:'
 
 
