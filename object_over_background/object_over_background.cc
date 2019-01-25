@@ -80,7 +80,7 @@ void on_slider (int amount,void *data){
   std::vector<cv::Vec4i> hierarchy;
   findContours(dilated, contours, hierarchy, cv::RETR_EXTERNAL, cv::CHAIN_APPROX_SIMPLE);
 
-  //DILATAR BAJO UN KERNELL
+
 
   std::vector<std::vector<cv::Point> > vect_contours;
   vect_contours.resize(contours.size());

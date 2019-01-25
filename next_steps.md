@@ -1,4 +1,4 @@
-#NEXT_STEPS
+# NEXT_STEPS
 
 * HoughLinesP : https://stackoverflow.com/questions/45322630/how-to-detect-lines-in-opencv
 
@@ -8,3 +8,7 @@
 * Filtrar sobre lo que ya hay los rectángulos que generan los objetos
 * Quitar de la imagen en canny las líneas para que la detección de otros objetos sea más precisa
 
+
+## FUTURO
+
+* goodFeaturesToTrack
