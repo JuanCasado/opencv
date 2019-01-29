@@ -6,8 +6,8 @@ void on_slider (int amount,void *data);
 
 struct Lines {
     cv::Mat img;
-    int rho = 1;
-    int theta = 1;
+    int rho = 100;
+    int theta = 100;
     int threshold = 0;
     int minLineLength = 0;
     int maxLineGap = 0;
@@ -52,7 +52,9 @@ void on_slider (int amount,void *data) {
     lines_config->theta = (lines_config->theta? lines_config->theta : 1);
 
     std::vector<cv::Vec4i> lines;
-    cv::HoughLinesP (lines_config->img, lines, lines_config->rho, lines_config->theta,lines_config->threshold,lines_config->minLineLength,lines_config->maxLineGap);
+    //cv::HoughLinesP (lines_config->img, lines_config->lines, lines_config->rho, theta,lines_config->threshold,lines_config->minLineLength,lines_config->maxLineGap);
+
+	cv::HoughLinesP( lines_config->img, lines, 1, CV_PI/180, 80, 30, 10 );
 
     cv::Mat img;
     cv::Mat img_color;
